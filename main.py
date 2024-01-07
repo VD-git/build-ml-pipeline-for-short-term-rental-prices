@@ -16,7 +16,7 @@ _steps = [
     # NOTE: We do not include this in the steps so it is not run by mistake.
     # You first need to promote a model export to "prod" before you can run this,
     # then you need to run this step explicitly
-#    "test_regression_model"
+   "test_regression_model"
 ]
 
 
@@ -125,7 +125,7 @@ def go(config: DictConfig):
                 os.path.join(hydra.utils.get_original_cwd(), "components", "test_regression_model"),
                 "main",
                 parameters={
-                    "mlflow_model": "model_artifact:latest",
+                    "mlflow_model": "model_artifact:prod",
                     "test_dataset": "test_data.csv:latest"
                 },
             )
