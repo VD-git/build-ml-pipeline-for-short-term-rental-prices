@@ -1,4 +1,5 @@
 **Project Link (W&B):** https://wandb.ai/victordias94/nyc_airbnb?workspace=user-victordias94
+![image](https://github.com/VD-git/build-ml-pipeline-for-short-term-rental-prices/assets/85261454/cea17b78-9e8f-4516-9c08-72e30430375a)
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
